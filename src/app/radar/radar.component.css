@@ -1,0 +1,10 @@
+:host ::ng-deep .legend {
+	font-family: 'Raleway', sans-serif;
+	fill: #2883ba;
+	font-weight: 600;
+}
+
+:host ::ng-deep .tooltip {
+	fill: #2883ba;
+	font-weight: 600;
+}

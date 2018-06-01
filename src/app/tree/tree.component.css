@@ -1,0 +1,21 @@
+:host ::ng-deep .node {
+  cursor: pointer;
+}
+
+:host ::ng-deep .node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+:host ::ng-deep .node text {
+  font: 14px sans-serif;
+  font-weight: 500;
+}
+
+:host ::ng-deep .link {
+  fill: none;
+  stroke: #2883ba;
+  opacity: 0.6;
+  stroke-width: 1.5px;
+}

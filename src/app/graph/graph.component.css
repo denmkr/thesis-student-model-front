@@ -1,0 +1,3 @@
+:host ::ng-deep .node {}
+
+:host ::ng-deep .link { stroke: #acd0e5; stroke-opacity: .6; stroke-width: 1px; }

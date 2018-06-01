@@ -1,0 +1,69 @@
+:host ::ng-deep * {
+  font: 10px sans-serif;
+}
+
+:host ::ng-deep .axis path,
+:host ::ng-deep .axis line {
+  fill: none;
+  stroke: #daeaf3;
+  shape-rendering: crispEdges;
+}
+
+:host ::ng-deep .bar {
+  fill: orange;
+}
+
+:host ::ng-deep .solidArc:hover {
+  fill: #2883ba !important;
+}
+
+:host ::ng-deep .solidArc {
+    transition: all 0.3s;
+    fill: #68a9d1 !important;
+}
+
+:host ::ng-deep .outlineArc {
+  stroke: #fff !important;
+  fill: #e9f2f8 !important;
+}
+
+:host ::ng-deep .x.axis path {
+  display: none;
+}
+
+:host ::ng-deep .aster-score { 
+  line-height: 1;
+  font-weight: bold;
+  font-size: 500%;
+  color: #2883ba;
+  fill: #2883ba;
+}
+
+:host ::ng-deep .d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+:host ::ng-deep .d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+:host ::ng-deep .d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}

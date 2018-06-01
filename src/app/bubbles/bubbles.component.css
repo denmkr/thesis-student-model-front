@@ -1,0 +1,33 @@
+:host ::ng-deep .node {
+  cursor: pointer;
+}
+
+:host ::ng-deep .node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+:host ::ng-deep svg {
+  background-color: #fff !important;
+}
+
+:host ::ng-deep .node--root {
+  fill: #2883ba !important;
+}
+
+:host ::ng-deep .node--leaf {
+  fill: #fff !important;
+}
+
+:host ::ng-deep .label {
+  font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+:host ::ng-deep .label,
+:host ::ng-deep .node--root,
+:host ::ng-deep .node--leaf {
+  pointer-events: none;
+}

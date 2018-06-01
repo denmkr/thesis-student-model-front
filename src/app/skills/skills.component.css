@@ -1,0 +1,61 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  width: 960px;
+  height: 700px;
+  margin-top: 10px;
+}
+
+:host ::ng-deep * {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:host ::ng-deep #main {
+  float: left;
+  width: 750px;
+}
+
+:host ::ng-deep #sidebar {
+  float: right;
+  width: 100px;
+}
+
+:host ::ng-deep #sequence {
+  width: 600px;
+  height: 70px;
+}
+
+:host ::ng-deep #legend {
+  padding: 10px 0 0 3px;
+}
+
+:host ::ng-deep #sequence text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+:host ::ng-deep #chart-skills {
+  position: relative;
+}
+
+:host ::ng-deep #chart-skills path {
+  stroke: #fff;
+}
+:host ::ng-deep #explanation {
+  position: absolute;
+  top: 260px;
+  left: 305px;
+  width: 140px;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  z-index: -1;
+}
+
+:host ::ng-deep #percentage {
+  font-size: 2.5em;
+}
